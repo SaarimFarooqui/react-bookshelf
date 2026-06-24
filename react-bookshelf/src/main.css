@@ -1,3 +1,4 @@
+/* Stack Sans Headline */ @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Fascinate+Inline&family=Stack+Sans+Headline:wght@200..700&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -21,14 +22,21 @@
 #ul-navbar li{
     list-style: none;
     text-align: center;
+    align-content: center;
     border-radius: 20px;
     transition: 0.2s linear;
 }
 .active-li{
     background-color: rgb(90, 90, 255);
 }
+#logo{
+    color: white;
+    text-align: center;
+    font-family: "Stack Sans Headline";
+    font-size: clamp(0.7em, 2.2vw, 24px);
+}
 #ul-navbar li a{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Stack Sans Headline";
     font-size: clamp(0.5em, 2.2vw, 18px);
     color: white;
     text-decoration: none;

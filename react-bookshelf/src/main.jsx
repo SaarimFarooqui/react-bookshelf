@@ -14,7 +14,7 @@ const App = () => {
   return <>
     <div id="background">
       <ul id='ul-navbar'>
-        <e></e>
+        <p id="logo">Bookshelf</p>
         { navbar_options.map((option) => 
           <li 
               onClick={(e) => {
