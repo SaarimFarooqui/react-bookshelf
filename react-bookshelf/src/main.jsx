@@ -7,9 +7,9 @@ const App = () => {
   const [ active_id, setactive_id ] = useState(1);
 
   const navbar_options = [
-    { name : "Bookshelf", id : 1, bg: "linear-gradient(45deg, rgb(93, 0, 255) 0%, rgb(0, 170, 255) 50%, rgb(93, 0, 255) 100%)"},
-    { name : "New Book", id : 2, bg: "linear-gradient(45deg, rgb(255, 187, 0) 0%, rgb(30, 255, 0) 50%, rgb(255, 187, 0) 100%)"},
-    { name : "About", id : 3, bg: "linear-gradient(45deg, rgb(0, 0, 0) 0%, rgb(255, 255, 255) 50%, rgb(0, 0, 0) 100%)"}
+    { name : "Bookshelf", id : 1},
+    { name : "New Book", id : 2},
+    { name : "About", id : 3}
   ]
   
   return <>
@@ -27,9 +27,8 @@ const App = () => {
         }
       </ul>
       <div id="pages-container">
-        <div id="left-section" style={{background: navbar_options[active_id-1].bg}}>
-        </div>
-        <div id="right-section"></div>
+        <div id="left"></div>
+        <div id="right"></div>
       </div>
 
     </div>
