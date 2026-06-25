@@ -11,21 +11,25 @@ const App = () => {
     { name : "New Book", id : 2},
     { name : "About", id : 3}
   ]
+
   return <>
     <div id="background">
-      <ul id='ul-navbar'>
+      <ul id='nav'>
         <p id="logo">Bookshelf</p>
         { navbar_options.map((option) => 
           <li 
-              onClick={(e) => {
+              onClick={ (e) => {
                 e.preventDefault();
-                setactive_id(option.id);
-                }}
+                setactive_id(option.id); } }
               className={option.id === active_id ? "active-li" : null}>
             <a href="">{option.name}</a>
           </li>) 
         }
       </ul>
+      <div id="pages-container">
+        <div id="pages"></div>
+      </div>
+
     </div>
   </>
 }
