@@ -6,15 +6,8 @@ import './text.css'
 
 const Bookshelf_left = ({cname}) => {
   return <div className = {cname}>
-    <p className='text-1'>text-1</p>
-    <p className='text-2'>text-2</p>
-    <p className='text-3'>text-3</p>
-    <p className='text-3'>text-3</p> 
-
-    {/* <p className='text-1'>Welcome user</p>
-    <p className='text-2'>What details are you looking forward to add in your bookshelf today?</p>
-    <p className='text-3'>A new book?</p>
-    <p className='text-3'>Updating progress regarding new book?</p>  */}
+    <p className='font-1 bgtextclip-1'>Welcome, Dear Reader!</p>
+    <p className='font-2 bgtextclip-2'>What details are you looking forward to add in your bookshelf today? A <span className='bgtextclip-3'>New Book</span> or<span className='bgtextclip-1'> updating</span> progress of a previously read book ?</p>
   </div>
 }
 

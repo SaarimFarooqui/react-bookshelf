@@ -1,5 +1,33 @@
-.text-1{
-    font-size: 40px;
+/* Stack Sans Headline */ @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Fascinate+Inline&family=Stack+Sans+Headline:wght@200..700&display=swap');
+.font-1{
+    font-family: "Stack Sans Headline";
+    font-size: clamp(3.125rem, 1.7188rem + 3.75vw, 5rem);
 }
-.text-2{}
-.text-3{}
+.font-2{
+    font-family: "Stack Sans Headline";
+    font-size: clamp(1.5625rem, 1.0938rem + 1.25vw, 2.1875rem);
+}
+.font-3{
+    font-family: "Stack Sans Headline";
+    font-size: clamp(0.9375rem, 0.6094rem + 0.875vw, 1.375rem);
+}
+.bgtextclip-1{
+    background: linear-gradient(45deg, red, blue);
+    background-clip: text;
+    color: transparent;
+}
+.bgtextclip-2{
+    background: linear-gradient(to right, rgb(0, 0, 255) 0%, rgb(0, 153, 255) 50%, rgb(0, 0, 255) 100%);
+    background-clip: text;
+    color: transparent;
+}
+.bgtextclip-3{
+    background: rgb(68, 255, 0);
+    background-clip: text;
+    color: transparent;
+}
+.bgtextclip-4{
+    background-color: rgb(35, 35, 35);
+    background-clip: text;
+    color: transparent;
+}
