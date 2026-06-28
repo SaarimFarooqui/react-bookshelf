@@ -5,7 +5,7 @@
 }
 .font-2{
     font-family: "Stack Sans Headline";
-    font-size: clamp(1.5625rem, 1.0938rem + 1.25vw, 2.1875rem);
+    font-size: clamp(1.25rem, 0.7813rem + 1.25vw, 1.875rem);
 }
 .font-3{
     font-family: "Stack Sans Headline";
