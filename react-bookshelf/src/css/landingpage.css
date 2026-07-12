@@ -1,0 +1,23 @@
+.lp-bg{
+    height: 100vh;
+    width: 100%;
+    background-color: #000011;
+}
+.gradientLight-1{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    width: 30%;
+    aspect-ratio: 2;
+    background: rgb(42, 0, 77);
+    filter: blur(100px);
+}
+.gradientLight-2{
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
+    width: 30%;
+    aspect-ratio: 2;
+    background: rgb(59, 0, 77);
+    filter: blur(100px);
+}
