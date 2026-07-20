@@ -1,9 +1,9 @@
 import "./App.css";
-import LandingPage from "./components/screen";
+import Screen from "./components/Screen";
 
 export default function App(){
     
     return(
-        <LandingPage />
+        <Screen />
     )
 }
